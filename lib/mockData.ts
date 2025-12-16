@@ -1,17 +1,17 @@
 import { Currency, ExchangeRate } from '@/types/currency'
 
 export const CRYPTO_CURRENCIES: Currency[] = [
-  { code: 'ETH', name: 'Ethereum', symbol: '⟠', type: 'crypto' },
-  { code: 'BTC', name: 'Bitcoin', symbol: '₿', type: 'crypto' },
-  { code: 'USDT', name: 'Tether', symbol: '₮', type: 'crypto' },
-  { code: 'USDC', name: 'USD Coin', symbol: '$', type: 'crypto' },
+  { code: 'ETH', name: 'Ethereum', symbol: '⟠', icon: '/icons/coins.png', type: 'crypto' },
+  { code: 'BTC', name: 'Bitcoin', symbol: '₿', icon: '/icons/bitcoin.png', type: 'crypto' },
+  { code: 'USDT', name: 'Tether', symbol: '₮', icon: '/icons/tether.png', type: 'crypto' },
+  { code: 'USDC', name: 'USD Coin', symbol: '$', icon: '/icons/usdc.png', type: 'crypto' },
 ]
 
 export const FIAT_CURRENCIES: Currency[] = [
-  { code: 'NGN', name: 'Naira', symbol: '🇳🇬', flag: '🇳🇬', type: 'fiat' },
-  { code: 'USD', name: 'US Dollar', symbol: '$', flag: '🇺🇸', type: 'fiat' },
-  { code: 'GBP', name: 'British Pound', symbol: '£', flag: '🇬🇧', type: 'fiat' },
-  { code: 'EUR', name: 'Euro', symbol: '€', flag: '🇪🇺', type: 'fiat' },
+  { code: 'NGN', name: 'Naira', symbol: '🇳🇬', flag: '🇳🇬', icon: '/icons/nigeria.png', type: 'fiat' },
+  { code: 'USD', name: 'US Dollar', symbol: '$', flag: '🇺🇸', icon: '/icons/united-states.png', type: 'fiat' },
+  { code: 'GBP', name: 'British Pound', symbol: '£', flag: '🇬🇧', icon: '/icons/united-kingdom.png', type: 'fiat' },
+  { code: 'EUR', name: 'Euro', symbol: '€', flag: '🇪🇺', icon: '/icons/european.png', type: 'fiat' },
 ]
 
 export const STABLECOINS = [

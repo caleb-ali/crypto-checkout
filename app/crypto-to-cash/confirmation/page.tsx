@@ -23,7 +23,7 @@ export default function ConfirmationPage() {
         
         <h2 className="text-xl font-semibold mb-6">Send ETH to the address below</h2>
         
-        {/* Confirmation details here */}
+        
         
         <Button onClick={handleConfirm} className="w-full mt-6">
           I have sent it
